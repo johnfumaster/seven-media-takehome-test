@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.16.1",
     "ddbreakpoints": "^1.1.1",
+    "immutable": "^3.8.1",
     "node-sass-chokidar": "^0.0.1",
     "normalize-scss": "^7.0.0",
     "react": "^15.5.4",
@@ -13,7 +14,9 @@
     "react-test-renderer": "^15.5.4"
   },
   "devDependencies": {
+    "enzyme": "^2.8.2",
     "npm-run-all": "^4.0.2",
+    "prop-types": "^15.5.10",
     "react-scripts": "1.0.6"
   },
   "scripts": {
