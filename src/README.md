@@ -19,6 +19,7 @@ Utilise React `styled-components` on a simple React view to resemble something l
     * Link URL - e.g. https://au.tv.yahoo.com/home-and-away/
 * Tile will click thru to a supplied URL, eg. the show's official page.
 * Data for the tile is got from a data source asynchronously.
+* Browser supports flexbox
 
 ### Packages used
 * Axios - For getting data

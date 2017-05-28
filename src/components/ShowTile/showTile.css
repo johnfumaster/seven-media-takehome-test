@@ -1,0 +1,40 @@
+/**
+ * Breakpoints for SCSS. Works with the Deloitte Digital DD.bp JavaScript
+ *
+ * @version 1.1.1
+ * @copyright 2012-2017 Deloitte Digital Australia - http://www.deloittedigital.com/au
+ * @author Deloitte Digital Australia deloittedigital@deloitte.com.au
+ * @license BSD 3-Clause (http://opensource.org/licenses/BSD-3-Clause)
+ */
+.show-tile {
+  max-width: 630px;
+  position: relative;
+  border-width: 10px 20px;
+  border-style: solid;
+  border-color: #000000; }
+  .show-tile .show-tile--image {
+    max-width: 100%;
+    height: auto; }
+  .show-tile .show-tile--label-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; }
+  .show-tile .show-tile--logo {
+    max-width: 15%; }
+  .show-tile .show-tile--label {
+    color: #FFFFFF;
+    margin-left: 15px; }
+    @media (min-width: 30em) {
+      .show-tile .show-tile--label {
+        font-size: 1.5rem; } }
+    @media only screen and (min-width: 40em) {
+      .show-tile .show-tile--label {
+        font-size: 2rem; } }
+    @media only screen and (min-width: 48em) {
+      .show-tile .show-tile--label {
+        font-size: 2.5rem; } }

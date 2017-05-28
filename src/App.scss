@@ -1,7 +1,8 @@
 @import './styles/normalize/import-now';
 @import './styles/dd.breakpoints';
+@import './styles/variables';
 
 .App {
-  text-align: center;
+  padding: 50px;
 }
 
