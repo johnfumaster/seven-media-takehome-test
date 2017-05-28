@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Utilise React `styled-components` on a simple React view to resemble something like:
 
 ![composite.jpg](../Assignment/composite.jpg)
-
+ 
 ## Assumptions
 * A single React component will be created
 * The component will take in the following props.  
