@@ -22,6 +22,6 @@ Utilise React `styled-components` on a simple React view to resemble something l
 
 ### Packages used
 * Axios - For getting data
-* React-Router - for routing
+* React-Router-DOM - for routing
 * DD-Breakpoints - Responsive breakpoints by Deloitte Digital - more lightweight than Bootstrap.
 * Normalize CSS - for normalizing standard elements
