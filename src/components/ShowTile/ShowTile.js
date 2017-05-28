@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 
-const ShowTile = (props) => (
-  <div className="showTile">
+class ShowTile extends Component {
+  render() {
+    if (!!this.props.length) {
+      return (
+        <div className="show-tile">
 
-  </div>
-);
+        </div>
+      )
+    }
+    return null;
+  }
+}
+// ShowTile.propTypes = {
+//
+// }
 
 export default ShowTile;
