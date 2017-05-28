@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+@import '../../styles/dd.breakpoints';
+
+.show-tile {
+  max-width:630px;
+  position:relative;
+  border-width: 10px 20px;
+  border-style: solid;
+  border-color: $color-black;
+
+  .show-tile--image {
+    max-width:100%;
+    height:auto;
+  }
+
+  .show-tile--label-wrapper {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:15px;
+    background:rgba(0,0,0,0.5);
+    display:flex;
+    align-items: center;
+  }
+
+  .show-tile--logo {
+    max-width:15%;
+  }
+  .show-tile--label {
+    color: $color-white;
+    margin-left:15px;
+
+    @include bp('xs') {
+      font-size: 1.5rem;
+    }
+    @include bp('s') {
+      font-size:2rem;
+    }
+    @include bp('m') {
+      font-size:2.5rem;
+    }
+  }
+}
